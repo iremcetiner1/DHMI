@@ -1,0 +1,13 @@
+{
+  "name": "dhmi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwind -i ./src/input.css -o ./dist/output.css --minify",
+    "watch":"npx tailwind -i ./src/input.css -o ./dist/output.css --w --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
